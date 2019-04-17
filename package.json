@@ -1,14 +1,10 @@
 {
   "name": "electron-windows-interactive-notifications",
-  "version": "0.7.7",
+  "version": "0.7.7-bv",
   "description": "Interactive notifications for Windows, from Node",
   "main": "lib/index.js",
   "scripts": {
-    "preinstall": "node ./scripts/preinstall.js && npm run build",
-    "postinstall": "node-gyp rebuild && node ./scripts/postinstall.js",
-    "build64": "msbuild.exe .\\InteractiveNotifications.sln /p:Configuration=Release /p:Platform=x64",
-    "build86": "msbuild.exe .\\InteractiveNotifications.sln /p:Configuration=Release /p:Platform=x86",
-    "build": "npm run build64 && npm run build86"
+    "postinstall": "node-gyp rebuild && node ./scripts/postinstall.js"
   },
   "repository": "https://github.com/felixrieseberg/electron-windows-interactive-notifications",
   "license": "MIT",

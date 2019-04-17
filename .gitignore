@@ -271,8 +271,8 @@ build
 
 Debug
 debug
-Release
-release
+#Release
+#release
 InteractiveNotificationsTest/[Dd]ebug
 InteractiveNotificationsTest/[Rr]elease
 InteractiveTest/Debug
@@ -281,3 +281,4 @@ InteractiveManagedTest/Debug
 InteractiveManagedTest/Release
 InteractiveNotifications/Debug
 InteractiveNotifications/Release
+Interact.*.tlog

@@ -50,10 +50,10 @@ struct CoTaskMemStringTraits
 };
 typedef HandleT<CoTaskMemStringTraits> CoTaskMemString;
 
-const wchar_t Shortcut[] = LR"(Microsoft\Windows\Start Menu\Slack.lnk)";
+const wchar_t Shortcut[] = LR"(Microsoft\Windows\Start Menu\B-hive Communicator.lnk)";
 
 #define __CSID "B23D2B18-8DD7-403A-B9B7-152B40A1478C"
-#define __PROTOCOL "myapp://"
+#define __PROTOCOL "bvcom://"
 
 // For the app to be activated from Action Center, it needs to provide a COM server to be called
 // when the notification is activated.  The CLSID of the object needs to be registered with the
