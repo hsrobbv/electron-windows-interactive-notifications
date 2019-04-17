@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 
+console.log('electron-windows-interactive-notifications postinstall');
 const releaseKey = process.arch === 'x64' ? 'x64/Release' : 'Release'
 const from = path.join(__dirname, '..', releaseKey, 'InteractiveNotifications.dll')
 const to = path.join(__dirname, '..', 'build', 'Release', 'InteractiveNotifications.dll')
