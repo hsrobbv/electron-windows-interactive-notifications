@@ -50,7 +50,7 @@ struct CoTaskMemStringTraits
 };
 typedef HandleT<CoTaskMemStringTraits> CoTaskMemString;
 
-const wchar_t Shortcut[] = LR"(Microsoft\Windows\Start Menu\B-hive Communicator.lnk)";
+const wchar_t Shortcut[] = LR"(Microsoft\Windows\Start Menu\Programs\B-hive Communicator.lnk)";
 
 #define __CSID "B23D2B18-8DD7-403A-B9B7-152B40A1478C"
 #define __PROTOCOL "bvcom://"
